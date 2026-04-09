@@ -23,6 +23,8 @@ public class SensorResponseDTO {
     public double getHumidity() { return humidity; }
     public void setHumidity(double humidity) { this.humidity = humidity; }
 
+    public String getCapturedAt() { return capturedAt; }
+    public void setCapturedAt(String capturedAt) { this.capturedAt = capturedAt; }
 
 //    private String deviceId;
 //    private String zoneId;
