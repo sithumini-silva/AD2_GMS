@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/example/agms-config-repo # TODO: Replace with your actual Git config repository URI
+          uri: https://github.com/sithumini-silva/GMS_config_repo.git # TODO: Replace with your actual Git config repository URI
           default-label: main
 
 eureka:
