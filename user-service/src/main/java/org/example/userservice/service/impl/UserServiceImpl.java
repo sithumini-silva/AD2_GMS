@@ -46,12 +46,7 @@ public class UserServiceImpl implements UserDetailsService, UserService {
     public boolean updatePassword(int u_id, String newPassword) {
         User user = userRepo.findById(u_id).orElse(null);
 
-        if (user != null) {
 
-            user.setPassword(newPassword);
-            userRepo.save(user);
-            return true;
-        }
 
         return false;
     }
