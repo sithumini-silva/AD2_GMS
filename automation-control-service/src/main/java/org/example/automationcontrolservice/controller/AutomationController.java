@@ -11,4 +11,19 @@ import java.util.List;
 @RequestMapping("/api/automation")
 public class AutomationController {
 
+    private final AutomationService automationService;
+
+    public AutomationController(AutomationService automationService) {
+        this.automationService = automationService;
     }
+
+    @PostMapping("/process/{deviceId}")
+    public Mono<Void> process(@PathVariable String deviceId) {
+        return automationService.process(deviceId);
+    }
+
+    @GetMapping("/logs")
+    public Mono<List<AutomationLog>> getLogs() {
+        return automationService.getAllLogs();
+    }
+}
