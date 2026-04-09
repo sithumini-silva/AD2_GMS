@@ -1,0 +1,62 @@
+#server:
+#  port: 8082
+#
+#spring:
+#  application:
+#    name: zone-management-service
+#
+#  config:
+#    import: "optional:configserver:http://localhost:8888"
+#
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/agms_zone_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+#    username: root
+#    password: Ijse@123
+#
+#  jpa:
+#    hibernate:
+#     ddl-auto: update
+#    show-sql: true
+#
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    prefer-ip-address: true
+#
+#iot:
+#  api:
+#    base-url: http://104.211.95.241:8080/api
+#    auth-token: "eyJhbGciOiJIUzUxMiJ9..."
+server:
+  port: 8082
+
+spring:
+  application:
+    name: zone-management-service
+  config:
+    import: "optional:configserver:http://localhost:8888"
+  datasource:
+    url: jdbc:mysql://localhost:3306/agms_zone_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: Ijse@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+iot:
+  api:
+    base-url: http://104.211.95.241:8080/api
+
+user:
+  service:
+    url: http://localhost:8081/user-service/api/v1

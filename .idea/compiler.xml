@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eurekaService" />
+        <module name="sensor-telemetry-service" />
+        <module name="crop-inventory-service" />
+        <module name="api-gateways" />
+        <module name="automation-control-service (1)" />
+        <module name="configServer" />
+        <module name="automation-control-service" />
+        <module name="zone-management-service" />
+        <module name="user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="userService" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateways" options="-parameters" />
+      <module name="automation-control-service" options="-parameters" />
+      <module name="automation-control-service (1)" options="-parameters" />
+      <module name="configServer" options="-parameters" />
+      <module name="crop-inventory-service" options="-parameters" />
+      <module name="eurekaService" options="-parameters" />
+      <module name="sensor-telemetry-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+      <module name="userService" options="-parameters" />
+      <module name="zone-management-service" options="-parameters" />
+    </option>
+  </component>
+</project>
