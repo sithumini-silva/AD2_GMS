@@ -218,12 +218,19 @@ AGMS/
 ## ✅ Features Implemented
 
 ✔ Microservices Architecture
+
 ✔ Service Discovery (Eureka)
+
 ✔ Centralized Config (Spring Cloud Config)
+
 ✔ API Gateway Routing
+
 ✔ JWT Security
+
 ✔ External IoT Integration
+
 ✔ Inter-Service Communication
+
 ✔ Rule-Based Automation
 
 ---
