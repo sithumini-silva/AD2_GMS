@@ -23,13 +23,6 @@ public class ZoneServiceImpl implements ZoneService {
     }
 
 
-    @Override
-    public ZoneDTO createZone(ZoneDTO zoneDTO) {
-        // JWT auth skip for testing
-        Zone zone = new Zone(zoneDTO.getName(), zoneDTO.getMinTemp(), zoneDTO.getMaxTemp());
-        Zone saved = zoneRepository.save(zone);
-        return new ZoneDTO(saved.getName(), saved.getMinTemp(), saved.getMaxTemp());
-    }
 
     @Override
     public List<Zone> getAllZones() {
