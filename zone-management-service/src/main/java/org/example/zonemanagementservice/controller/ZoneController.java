@@ -36,3 +36,6 @@ public class ZoneController {
         return zoneService.updateZone(id,dto);
     }
 
+    @DeleteMapping("/{id}")
+    public void deleteZone(@PathVariable Long id){ zoneService.deleteZone(id); }
+}
