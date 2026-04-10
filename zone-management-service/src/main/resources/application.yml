@@ -59,4 +59,4 @@ iot:
 
 user:
   service:
-    url:
+    url: http://localhost:8081/user-service/api/v1
