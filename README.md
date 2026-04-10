@@ -270,6 +270,7 @@ AGMS/
 🤖 5️⃣ Automation Service
 
 
+<img width="500" height="400" alt="Screenshot 2026-04-10 113354" src="https://github.com/user-attachments/assets/9aeea250-ae29-44bd-99be-18b3b1adf1fb" />
 
 
 
