@@ -251,6 +251,10 @@ AGMS/
 🌱 3️⃣ Zone Service
 
 
+<img width="500" height="400" alt="Screenshot 2026-04-10 111301" src="https://github.com/user-attachments/assets/d794de9b-9379-4056-b642-95d61c828c92" />
+<img width="500" height="400" alt="Screenshot 2026-04-10 111348" src="https://github.com/user-attachments/assets/4fcae966-f6bb-4206-99b2-cb127c740c19" />
+
+
 
 
 🌡 4️⃣ Sensor Service
