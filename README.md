@@ -228,6 +228,15 @@ AGMS/
 
 ---
 
+📸 REQUIRED SCREENSHOTS
+
+✅ Eureka Dashboard
+![Screenshot 2026-04-10 104314.png](..%2F..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202026-04-10%20104314.png)
+![Screenshot 2026-04-10 104252.png](..%2F..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202026-04-10%20104252.png)
+![Screenshot 2026-04-10 104356.png](..%2F..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202026-04-10%20104356.png)
+
+---
+
 ## 👨‍💻 Author
 
 **Sithu Silva**
