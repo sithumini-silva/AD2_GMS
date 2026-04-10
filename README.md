@@ -260,6 +260,11 @@ AGMS/
 🌡 4️⃣ Sensor Service
 
 
+<img width="500" height="400" alt="Screenshot 2026-04-10 111657" src="https://github.com/user-attachments/assets/db4facdd-7a42-4f90-8146-9f11c7a16faf" />
+<img width="500" height="400" alt="Screenshot 2026-04-10 111745" src="https://github.com/user-attachments/assets/1ec13da7-eca1-4205-a6b4-5f0ca269ce4b" />
+
+
+
 
 
 🤖 5️⃣ Automation Service
