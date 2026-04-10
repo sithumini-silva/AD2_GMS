@@ -26,4 +26,4 @@ eureka:
     prefer-ip-address: true
 
 zone-service:
-  url: http://localhost:8081/api/zones
+  url:
