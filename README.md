@@ -289,6 +289,9 @@ AGMS/
 🌾 7️⃣ Crop Service
 
 
+<img width="1059" height="866" alt="Screenshot 2026-04-10 112508" src="https://github.com/user-attachments/assets/ea9f99ca-07b6-4236-879f-b3176d72f427" />
+<img width="1066" height="850" alt="Screenshot 2026-04-10 112639" src="https://github.com/user-attachments/assets/6892abdb-75b1-4791-93d4-77505c9a9fb5" />
+
 
 
 
