@@ -230,8 +230,7 @@ AGMS/
 
 📸 REQUIRED SCREENSHOTS
 
-✅ Eureka Dashboard
-
+⭐ 1️⃣ Eureka Dashboard
 
 <img width="500" height="400" alt="Screenshot 2026-04-10 104252" src="https://github.com/user-attachments/assets/8e8e5fe0-e01c-4af2-8702-1a4a19925fe4" />
 <img width="500" height="400" alt="Screenshot 2026-04-10 104314" src="https://github.com/user-attachments/assets/10aec444-2284-44c3-9551-eaccde0c97fc" />
@@ -240,11 +239,40 @@ AGMS/
 
 
 
-✅ JWT Authentication
+🔐 2️⃣ JWT Authentication
 
 
 <img width="500" height="400" alt="Screenshot 2026-04-10 110207" src="https://github.com/user-attachments/assets/af50d8b1-577b-4757-811f-5507c1704d8e" />
 <img width="500" height="400" alt="Screenshot 2026-04-10 110611" src="https://github.com/user-attachments/assets/42552a72-e44b-4740-bf89-2a67607ff32c" />
+
+
+
+
+🌱 3️⃣ Zone Service
+
+
+
+
+🌡 4️⃣ Sensor Service
+
+
+
+
+🤖 5️⃣ Automation Service
+
+
+
+
+🔄 6️⃣ End-to-End Flow
+
+
+
+
+🌾 7️⃣ Crop Service
+
+
+
+
 
 ---
 
