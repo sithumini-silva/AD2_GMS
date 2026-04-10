@@ -1,0 +1,788 @@
+{
+  "info": {
+    "_postman_id": "d3afe4ed-54be-4696-a7ae-78a599b32178",
+    "name": "GMS",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "45679861"
+  },
+  "item": [
+    {
+      "name": "Save User 1",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/user-service/api/v1/user/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "user-service",
+            "api",
+            "v1",
+            "user",
+            "save"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update User",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"u_id\": 1,\r\n  \"name\": \"Sithu Silva Updated\",\r\n  \"contact\": \"0712345688\",\r\n  \"address\": \"Colombo\",\r\n  \"email\": \"sithu@gmail.com\",\r\n  \"role\": \"ADMIN\",\r\n  \"password\": \"Ijse@123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/user-service/api/v1/user/update",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "user-service",
+            "api",
+            "v1",
+            "user",
+            "update"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get All Users",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/user-service/api/v1/user/get",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "user-service",
+            "api",
+            "v1",
+            "user",
+            "get"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get User By ID",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Delete User",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/user-service/api/v1/user/delete/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "user-service",
+            "api",
+            "v1",
+            "user",
+            "delete",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save User 2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Chathu Silva\",\r\n  \"contact\": \"0712345678\",\r\n  \"address\": \"Colombo, Sri Lanka\",\r\n  \"email\": \"chathu@gmail.com\",\r\n  \"role\": \"ADMIN\",\r\n  \"password\": \"Ijse@123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/user-service/api/v1/user/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "user-service",
+            "api",
+            "v1",
+            "user",
+            "save"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save User 3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Nuwan Silva\",\r\n  \"contact\": \"0712345448\",\r\n  \"address\": \"Colombo, Sri Lanka\",\r\n  \"email\": \"nuwan@gmail.com\",\r\n  \"role\": \"ADMIN\",\r\n  \"password\": \"Ijse@123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/user-service/api/v1/user/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "user-service",
+            "api",
+            "v1",
+            "user",
+            "save"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save User 4",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Nawab Silva\",\r\n  \"contact\": \"0712345699\",\r\n  \"address\": \"Colombo, Sri Lanka\",\r\n  \"email\": \"nawab@gmail.com\",\r\n  \"role\": \"ADMIN\",\r\n  \"password\": \"Ijse@123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/user-service/api/v1/user/save",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "user-service",
+            "api",
+            "v1",
+            "user",
+            "save"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"email\": \"sithu@gmail.com\",\r\n  \"password\": \"Ijse@123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/user-service/api/v1/auth/authenticate",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "user-service",
+            "api",
+            "v1",
+            "auth",
+            "authenticate"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save Zone 1",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Zone A\",\r\n  \"minTemp\": 15.0,\r\n  \"maxTemp\": 25.0,\r\n  \"deviceId\": \"DEV-12345\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8082/api/zones",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "api",
+            "zones"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save Zone 2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Zone B\",\r\n  \"minTemp\": 15.0,\r\n  \"maxTemp\": 25.0,\r\n  \"deviceId\": \"DEV-12346\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8082/api/zones",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "api",
+            "zones"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save Zone 3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Zone C\",\r\n  \"minTemp\": 15.0,\r\n  \"maxTemp\": 25.0,\r\n  \"deviceId\": \"DEV-12347\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8082/api/zones",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "api",
+            "zones"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get All Zones",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8082/api/zones",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "api",
+            "zones"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Zone By ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8082/api/zones/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "api",
+            "zones",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update Zone",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Tomato Zone 1 Updated\",\r\n  \"minTemp\": 21.0,\r\n  \"maxTemp\": 29.0\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8082/api/zones/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "api",
+            "zones",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete Zone",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8082/api/zones/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8082",
+          "path": [
+            "api",
+            "zones",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save Sensor 1",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"deviceId\": \"device7\",\r\n  \"zoneId\": \"zoneC\",\r\n  \"temperature\": 29.5,\r\n  \"humidity\": 68.0\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8085/api/sensors",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8085",
+          "path": [
+            "api",
+            "sensors"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save Sensor 2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"deviceId\": \"device8\",\r\n  \"zoneId\": \"zoneC\",\r\n  \"temperature\": 29.5,\r\n  \"humidity\": 68.0\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8085/api/sensors",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8085",
+          "path": [
+            "api",
+            "sensors"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save Sensor 3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"deviceId\": \"device9\",\r\n  \"zoneId\": \"zoneC\",\r\n  \"temperature\": 29.5,\r\n  \"humidity\": 68.0\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8085/api/sensors",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8085",
+          "path": [
+            "api",
+            "sensors"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update Sensor",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"deviceId\": \"device001\",\r\n  \"zoneId\": \"zoneB\",\r\n  \"temperature\": 30.2,\r\n  \"humidity\": 70.5,\r\n  \"capturedAt\": \"2026-04-08T15:00:00\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8085/api/sensors/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8085",
+          "path": [
+            "api",
+            "sensors",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get All Sensors",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8085/api/sensors",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8085",
+          "path": [
+            "api",
+            "sensors"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get By Device ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8085/api/sensors/device/device7",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8085",
+          "path": [
+            "api",
+            "sensors",
+            "device",
+            "device7"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete Sensor",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8085/api/sensors/device/device001",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8085",
+          "path": [
+            "api",
+            "sensors",
+            "device",
+            "device001"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save Crop 1",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"cropName\": \"Tomato\",\r\n  \"zoneId\": 1,\r\n  \"plantDate\": \"2026-04-08\",\r\n  \"status\": \"SEEDLING\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8084/api/crops",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8084",
+          "path": [
+            "api",
+            "crops"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save Crop 2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"cropName\": \"Mango\",\r\n  \"zoneId\": 1,\r\n  \"plantDate\": \"2026-04-08\",\r\n  \"status\": \"SEEDLING\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8084/api/crops",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8084",
+          "path": [
+            "api",
+            "crops"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save Crop 3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"cropName\": \"Chilli\",\r\n  \"zoneId\": 1,\r\n  \"plantDate\": \"2026-04-08\",\r\n  \"status\": \"SEEDLING\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8084/api/crops",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8084",
+          "path": [
+            "api",
+            "crops"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get All Crops",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8084/api/crops",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8084",
+          "path": [
+            "api",
+            "crops"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Crop By ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8084/api/crops/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8084",
+          "path": [
+            "api",
+            "crops",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Trigger Automation",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8083/api/automation/process/device7",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "api",
+            "automation",
+            "process",
+            "device7"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Logs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8083/api/automation/logs",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "api",
+            "automation",
+            "logs"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
