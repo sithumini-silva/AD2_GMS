@@ -744,19 +744,19 @@
     {
       "name": "Trigger Automation",
       "request": {
-        "method": "POST",
+        "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:8083/api/automation/process/device7",
+          "raw": "http://localhost:8085/api/sensors/device/device7",
           "protocol": "http",
           "host": [
             "localhost"
           ],
-          "port": "8083",
+          "port": "8085",
           "path": [
             "api",
-            "automation",
-            "process",
+            "sensors",
+            "device",
             "device7"
           ]
         }
@@ -765,6 +765,93 @@
     },
     {
       "name": "Get Logs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8083/api/automation/logs",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "api",
+            "automation",
+            "logs"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "JWT Authentication",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzUxMiJ9.eyJyb2xlIjoiQURNSU4iLCJzdWIiOiJzaXRodUBnbWFpbC5jb20iLCJpYXQiOjE3NzU3OTkxNTMsImV4cCI6MTc3NjgzNTk1M30._VXZvirRF6OHnoqU_MTMQgcxdKaxekqIRZBcCRGUaUBcLx9-KdJTyO63hpz9sJEMRIQMaQ1160QS1cNlSQuICg",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"token\": \"eyJhbGciOiJIUzUxMiJ9.eyJyb2xlIjoiQURNSU4iLCJzdWIiOiJzaXRodUBnbWFpbC5jb20iLCJpYXQiOjE3NzU3OTkxNTMsImV4cCI6MTc3NjgzNTk1M30._VXZvirRF6OHnoqU_MTMQgcxdKaxekqIRZBcCRGUaUBcLx9-KdJTyO63hpz9sJEMRIQMaQ1160QS1cNlSQuICg\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8081/user-service/api/v1/user/get",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8081",
+          "path": [
+            "user-service",
+            "api",
+            "v1",
+            "user",
+            "get"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Logs Updated",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8083/api/automation/logs",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "api",
+            "automation",
+            "logs"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Automation Service",
       "request": {
         "method": "GET",
         "header": [],
