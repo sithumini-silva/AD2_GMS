@@ -270,6 +270,10 @@ AGMS/
 🤖 5️⃣ Automation Service
 
 
+<img width="500" height="400" alt="Screenshot 2026-04-10 112250" src="https://github.com/user-attachments/assets/1311092e-a919-40e7-9db7-8df7efec3cce" />
+
+
+
 
 
 🔄 6️⃣ End-to-End Flow
