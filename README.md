@@ -231,9 +231,12 @@ AGMS/
 📸 REQUIRED SCREENSHOTS
 
 ✅ Eureka Dashboard
-![Screenshot 2026-04-10 104314.png](..%2F..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202026-04-10%20104314.png)
-![Screenshot 2026-04-10 104252.png](..%2F..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202026-04-10%20104252.png)
-![Screenshot 2026-04-10 104356.png](..%2F..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202026-04-10%20104356.png)
+
+
+<img width="970" height="827" alt="Screenshot 2026-04-10 104252" src="https://github.com/user-attachments/assets/8e8e5fe0-e01c-4af2-8702-1a4a19925fe4" />
+<img width="967" height="837" alt="Screenshot 2026-04-10 104314" src="https://github.com/user-attachments/assets/10aec444-2284-44c3-9551-eaccde0c97fc" />
+<img width="541" height="526" alt="Screenshot 2026-04-10 104356" src="https://github.com/user-attachments/assets/f039912f-2677-4dc3-9ac0-c2f8b3af3dd8" />
+
 
 ---
 
